@@ -42,7 +42,7 @@ function initDataFromLocalStorage() {
   if (savedData) {
     dataArray = JSON.parse(savedData);
   }
-};
+}
 
 // function storeData() {
 //     const inputValue1 = document.getElementById('name');
