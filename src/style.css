@@ -3,18 +3,19 @@
   column-gap: 5%;
   max-height: max-content;
 }
+
 #form {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
   width: 40%;
   margin-right: 5%;
-
-
 }
+
 #Leaderboard {
-    margin-left: 5%;
+  margin-left: 5%;
 }
+
 #displayData {
   display: flex;
   flex-direction: column;
@@ -22,35 +23,41 @@
   border: black solid;
   list-style: none;
   margin-left: 5%;
-  
 }
+
 #displayData li {
   padding: 10px;
   margin-left: -40px;
   border-bottom: solid black 1px;
 }
-#name, #score {
-    border: solid black;
-    width: 60%;
+
+#name,
+#score {
+  border: solid black;
+  width: 60%;
 }
+
 #btn {
-    width: 70px;
-    justify-content: flex-end;
-    background-color: white;
-    border-top: solid black 1px;
-    border-bottom: solid black;
-    margin-top: 3%;
+  width: 70px;
+  justify-content: flex-end;
+  background-color: white;
+  border-top: solid black 1px;
+  border-bottom: solid black;
+  margin-top: 3%;
 }
+
 .recent {
-    margin-left: 5%;
-    display: flex;
-    flex-direction: row;
-    column-gap: 3%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 3%;
 }
+
 .even {
-    background-color: silver;
+  background-color: silver;
 }
+
 #refresh {
- height: 50%;
- margin-top: 25px;
+  height: 50%;
+  margin-top: 25px;
 }
