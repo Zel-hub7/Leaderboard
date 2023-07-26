@@ -32,7 +32,7 @@ function displayData() {
 
   dataArray.forEach((data) => {
     const listItem = document.createElement("li");
-    listItem.textContent = `Input 1: ${data.input1}, Input 2: ${data.input2}`;
+    listItem.textContent = `${data.input1}:${data.input2}`;
     dataList.appendChild(listItem);
   });
 }

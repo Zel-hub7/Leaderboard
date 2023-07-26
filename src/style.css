@@ -1,11 +1,43 @@
 #body {
-   display: flex;
-   column-gap: 20px;
-   
+  display: flex;
+  column-gap: 5%;
+  max-height: max-content;
 }
 #form {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 40%;
+  margin-right: 5%;
+
+
+}
+#displayData {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: black solid;
+  list-style: none;
+  margin-left: 5%;
+  
+}
+#displayData li {
+  padding: 10px;
+  margin-left: -45px;
+  border-bottom: solid black 1px;
+}
+#name, #score {
+    border: solid black;
+    width: 60%;
+}
+#btn {
+    width: 70px;
+    justify-content: flex-end;
+    background-color: white;
+    border-top: solid black 1px;
+    border-bottom: solid black;
+    margin-top: 3%;
+}
+.recent {
+    margin-left: 5%;
 }
