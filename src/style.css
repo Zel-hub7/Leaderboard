@@ -23,7 +23,7 @@
 }
 #displayData li {
   padding: 10px;
-  margin-left: -45px;
+  margin-left: -40px;
   border-bottom: solid black 1px;
 }
 #name, #score {
@@ -40,4 +40,7 @@
 }
 .recent {
     margin-left: 5%;
+}
+.even {
+    background-color: silver;
 }
