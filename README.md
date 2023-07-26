@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- The link for Leaderboard project [Live Demo Link](https://meryemsanem.github.io/leaderboard/dist/)
+-Comming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +83,7 @@ Clone this repository to your desired folder:
 ```sh
   cd desktop
 
-  git clone git@github.com:meryemsanem/leaderboard.git
-
+  git clone https://github.com/Zel-hub7/Leaderboard.git
 ```
 
 ### Install
