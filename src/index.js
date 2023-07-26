@@ -1,9 +1,8 @@
 import "./style.css";
 
-const dataArray = [];
-const form = document.getElementById("form");
+let dataArray = [];
 
-form.addEventListener("submit", function (event) {
+function storeData(event) {
   event.preventDefault();
   const inputValue1 = document.getElementById("name").value;
   const inputValue2 = document.getElementById("score").value;
@@ -15,24 +14,35 @@ form.addEventListener("submit", function (event) {
 
   dataArray.push(userInputObject);
 
-  document.getElementById('score').value = '';
-  document.getElementById('name').value = '';
-   
+  document.getElementById("score").value = "";
+  document.getElementById("name").value = "";
+
+  localStorage.setItem("myData", JSON.stringify(dataArray));
   displayData();
-});
-
-function displayData() {
-    const dataList = document.getElementById('displayData');
-    dataList.innerHTML = '';
-
-    dataArray.forEach(data => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `Input 1: ${data.input1}, Input 2: ${data.input2}`
-        dataList.appendChild(listItem);
-    })
-
 }
 
+initDataFromLocalStorage();
+displayData();
+
+form.addEventListener("submit", storeData);
+
+function displayData() {
+  const dataList = document.getElementById("displayData");
+  dataList.innerHTML = "";
+
+  dataArray.forEach((data) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = `Input 1: ${data.input1}, Input 2: ${data.input2}`;
+    dataList.appendChild(listItem);
+  });
+}
+
+function initDataFromLocalStorage() {
+  const savedData = localStorage.getItem("myData");
+  if (savedData) {
+    dataArray = JSON.parse(savedData);
+  }
+}
 
 // function storeData() {
 //     const inputValue1 = document.getElementById('name');
