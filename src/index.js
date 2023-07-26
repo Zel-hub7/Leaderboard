@@ -45,7 +45,7 @@ function initDataFromLocalStorage() {
 }
 
 // function storeData() {
-//     const inputValue1 = document.getElementById('name');
+//    const inputValue1 = document.getElementById('name');
 //     const inputValue2 = document.getElementById('score');
 
 //     const userInputObject = {
