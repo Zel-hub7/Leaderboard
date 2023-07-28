@@ -4,11 +4,13 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .list-form-container {
   display: flex;
   justify-content: space-evenly;
   margin: 7%;
 }
+
 #leader-title {
   color: white;
   margin-left: 40%;
@@ -24,7 +26,7 @@ h1 {
   flex-direction: column;
   row-gap: 15px;
   width: 300px;
-  padding:15px;
+  padding: 15px;
   margin-right: 5%;
   background-color: hsl(0, 0%, 75%, 0.4);
   height: max-content;
@@ -39,13 +41,14 @@ h1 {
 .refresh {
   padding: 15px;
   margin-top: 25px;
-  background-color: #4CAF50; 
-  border: #4CAF50;
-  color: #fff; 
+  background-color: #4caf50;
+  border: #4caf50;
+  color: #fff;
   width: 40%;
   height: max-content;
   cursor: pointer;
 }
+
 #recentID {
   color: white;
 }
@@ -77,12 +80,13 @@ h1 {
   border: rgb(255, 79, 79);
   color: white;
   padding: 5px;
-
 }
+
 #add:hover {
   background-color: #c7614b;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 #Score-Title {
-  color: rgb(255, 166, 0)
+  color: rgb(255, 166, 0);
 }
