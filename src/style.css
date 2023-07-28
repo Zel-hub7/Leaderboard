@@ -1,10 +1,13 @@
-#body {
+.list-form-container {
   display: flex;
-  column-gap: 5%;
-  max-height: max-content;
+  justify-content: space-evenly;
 }
 
-#form {
+h1 {
+  margin-left: 5%;
+}
+
+.form {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
@@ -12,52 +15,41 @@
   margin-right: 5%;
 }
 
-#Leaderboard {
-  margin-left: 5%;
+.recent-score {
+  display: flex;
+  column-gap: 40px;
+  width: 100%;
 }
 
-#displayData {
+.refresh {
+  height: 25px;
+  margin-top: 25px;
+  background-color: white;
+  padding: 5px;
+}
+
+.lists {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  border: black solid;
+  width: 100%;
+  border: solid rgb(196, 196, 196) 0.5px;
   list-style: none;
-  margin-left: 5%;
+  border-bottom: none;
 }
 
-#displayData li {
+.lists li {
+  list-style: none;
   padding: 10px;
   margin-left: -40px;
   border-bottom: solid black 1px;
-}
-
-#name,
-#score {
-  border: solid black;
-  width: 60%;
-}
-
-#btn {
-  width: 70px;
-  justify-content: flex-end;
-  background-color: white;
-  border-top: solid black 1px;
-  border-bottom: solid black;
-  margin-top: 3%;
-}
-
-.recent {
-  margin-left: 5%;
-  display: flex;
-  flex-direction: row;
-  column-gap: 3%;
 }
 
 .even {
   background-color: silver;
 }
 
-#refresh {
-  height: 50%;
-  margin-top: 25px;
+#add {
+  margin-left: 70%;
+  width: 30%;
+  background-color: white;
 }
