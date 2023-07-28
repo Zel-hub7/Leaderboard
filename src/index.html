@@ -7,20 +7,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>Leaderboard</h1>
+        <h1 id ="leader-title">Leaderboard</h1>
         <div class="list-form-container">
             <div class="listdiv">
                 <div class="recent-score">
-                    <h2>Recent scores:</h2>
+                    <h2 id="recentID">Scores:</h2>
                     <button class="refresh">Refresh</button>
                 </div>
                 <ul class="lists">
                 </ul>
             </div>
             <form class="form" id="add-new">
-                <h2>Add your score</h2>
+                <h2 id="Score-Title">Add your score</h2>
                 <input type="text" id="leader-name" class="leader-name" placeholder="Your name">
-                <input type="text" id="leader-score" class="leader-score" placeholder="Your Score">
+                <input type="number" id="leader-score" class="leader-score" placeholder="Your Score">
                 <button class="add" id="add" type="submit">Add</button>
             </form>
         </div>

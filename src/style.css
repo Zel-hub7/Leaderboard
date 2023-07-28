@@ -1,6 +1,21 @@
+body {
+  background: url('./IMG/bgg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .list-form-container {
   display: flex;
   justify-content: space-evenly;
+  margin: 7%;
+}
+
+#leader-title {
+  color: white;
+  margin-left: 40%;
+  margin-top: 5%;
+  font-size: 50px;
 }
 
 h1 {
@@ -10,9 +25,12 @@ h1 {
 .form {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
-  width: 40%;
+  row-gap: 15px;
+  width: 300px;
+  padding: 15px;
   margin-right: 5%;
+  background-color: hsl(0, 0%, 75%, 0.4);
+  height: max-content;
 }
 
 .recent-score {
@@ -22,17 +40,25 @@ h1 {
 }
 
 .refresh {
-  height: 25px;
+  padding: 15px;
   margin-top: 25px;
-  background-color: white;
-  padding: 5px;
+  background-color: #4caf50;
+  border: #4caf50;
+  color: #fff;
+  width: 40%;
+  height: max-content;
+  cursor: pointer;
+}
+
+#recentID {
+  color: white;
 }
 
 .lists {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: solid rgb(196, 196, 196) 0.5px;
+  color: whitesmoke;
   list-style: none;
   border-bottom: none;
 }
@@ -45,11 +71,27 @@ h1 {
 }
 
 .even {
-  background-color: silver;
+  background-color: rgb(0, 65, 45);
 }
 
 #add {
   margin-left: 70%;
   width: 30%;
-  background-color: white;
+  background-color: rgb(255, 79, 79);
+  border: rgb(255, 79, 79);
+  color: white;
+  padding: 5px;
+}
+
+#add:hover {
+  background-color: #c7614b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Score-Title {
+  color: rgb(255, 166, 0);
+}
+
+.odd {
+  background-color: rgb(0, 3, 34);
 }

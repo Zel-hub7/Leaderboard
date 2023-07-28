@@ -17,6 +17,8 @@ const displayLists = async () => {
 
     if (index % 2 !== 0) {
       listItem.classList.add('even');
+    } else {
+      listItem.classList.add('odd');
     }
     scoreList.appendChild(listItem);
   });
