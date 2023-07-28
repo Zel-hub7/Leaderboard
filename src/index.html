@@ -1,48 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Leaderboard</title>
 </head>
-
 <body>
-    <h1 id="Leaderboard">Leaderboard</h1>
-    <div class="recent">
-        
-        <h2>Recent Scores</h2>
-        
-            <button id="refresh">Refresh</button>
-       
+    <div class="container">
+        <h1>Leaderboard</h1>
+        <div class="list-form-container">
+            <div class="listdiv">
+                <div class="recent-score">
+                    <h2>Recent scores:</h2>
+                    <button class="refresh">refresh</button>
+                </div>
+                <ul class="lists">
+                </ul>
+            </div>
+            <form class="form" id="add-new">
+                <h2>Add your score</h2>
+                <input type="text" id="leader-name" class="leader-name" placeholder="Your name">
+                <input type="text" id="leader-score" class="leader-score" placeholder="Your Score">
+                <button class="add" id="add" type="submit">add</button>
+            </form>
+        </div>
     </div>
-    <div id='body'>
-
-
-
-        <ul id="displayData">
-
-        </ul>
-
-
-
-
-
-        <form id="form" action="">
-            <label for="name"></label>
-            <input placeholder="Your name" type="text" id="name" required>
-
-            <label for="score"></label>
-            <input placeholder="Your score" type="number" id="score" required>
-
-            <button id="btn" type="submit">Submit</button>
-        </form>
-
-
-
-
-
 </body>
-
+</html>
 </html>
