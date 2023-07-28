@@ -3,6 +3,9 @@
   justify-content: space-evenly;
 
 }
+h1 {
+  margin-left: 5%;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -26,8 +29,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: solid black 1px;
+  border: solid rgb(196, 196, 196) 0.5px;
   list-style: none;
+  border-bottom: none;
 
 }
 .lists li {
@@ -39,4 +43,9 @@
 }
 .even {
   background-color: silver;
+}
+#add {
+  margin-left: 70%;
+  width: 30%;
+  background-color: white;
 }

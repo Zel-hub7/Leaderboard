@@ -1,4 +1,4 @@
-const uniqueId = "Zelalem1234"; // Replace this with a unique ID of your choice
+const uniqueId = "Zelalem1234";
 const apiUrl = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${uniqueId}/scores/`;
 
 const addScore = async (scoreList) => {
