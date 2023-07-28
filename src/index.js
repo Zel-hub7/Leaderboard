@@ -22,7 +22,6 @@ const displayLists = async () => {
   });
 };
 
-
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   const name = document.querySelector('#leader-name').value.trim();

@@ -1,11 +1,12 @@
 .list-form-container {
   display: flex;
   justify-content: space-evenly;
-
 }
+
 h1 {
   margin-left: 5%;
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -13,18 +14,20 @@ h1 {
   width: 40%;
   margin-right: 5%;
 }
+
 .recent-score {
   display: flex;
   column-gap: 40px;
   width: 100%;
-  
 }
+
 .refresh {
   height: 25px;
   margin-top: 25px;
   background-color: white;
   padding: 5px;
 }
+
 .lists {
   display: flex;
   flex-direction: column;
@@ -32,18 +35,19 @@ h1 {
   border: solid rgb(196, 196, 196) 0.5px;
   list-style: none;
   border-bottom: none;
-
 }
+
 .lists li {
   list-style: none;
   padding: 10px;
   margin-left: -40px;
   border-bottom: solid black 1px;
-
 }
+
 .even {
   background-color: silver;
 }
+
 #add {
   margin-left: 70%;
   width: 30%;
